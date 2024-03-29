@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #363636;
+}
+
+.navbar-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin:0;
+    padding: 15px 0;
+}
+
+
+.navbar-link {
+    padding: 15px;
+    display: block;
+    color: #FF8C00;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 25px;
+    transition: background-color .5s;
+}
+
+
+.navbar-link:hover {
+    background-color: #4F4F4F;
+}
+
+@media screen and (min-width: 1300px) {
+    .navbar-list {
+        gap:15px;
+    }
+    
+}
+    
+
